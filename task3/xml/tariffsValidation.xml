@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tariffs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.task3.tasks/tariffs"
+xsi:schemaLocation="http://www.task3.tasks/tariffs tariffs.xsd">
+<tariff>
+
+<name tariffID="asdf1234">Dlya dzvinkiv</name>
+<operatorName>Kievstar</operatorName>
+<payroll>52</payroll>
+<callPrices>
+<insideNetwork>4.5</insideNetwork>
+<outsideNetwork>4.6</outsideNetwork>
+<landLinePhone>4.7</landLinePhone>
+</callPrices>
+<smsPrice>1.3</smsPrice>
+<parameters>
+<favouriteNumber count="2">
+<number>12345634</number>
+<number>123456344</number>
+</favouriteNumber>
+<tariffication>minute1</tariffication>
+<connectionCost>0.24</connectionCost>
+</parameters>
+
+</tariff>
+
+<tariff>
+
+<name tariffID="asdf1235">Dlya smartfona extra</name>
+<operatorName>Kievstar</operatorName>
+<payroll>51</payroll>
+<callPrices>
+<insideNetwork>4.2</insideNetwork>
+<outsideNetwork>4.3</outsideNetwork>
+<landLinePhone>4.4</landLinePhone>
+</callPrices>
+<smsPrice>1.2</smsPrice>
+<parameters>
+<favouriteNumber count="1">
+<number>12345634</number>
+</favouriteNumber>
+<tariffication>seconds12</tariffication>
+<connectionCost>0.23</connectionCost>
+</parameters>
+
+</tariff>
+
+<tariff>
+
+<name tariffID="asdf1236">Dlya smartfona+</name>
+<operatorName>Kievstar</operatorName>
+<payroll>50</payroll>
+<callPrices>
+<insideNetwork>3.9</insideNetwork>
+<outsideNetwork>4.0</outsideNetwork>
+<landLinePhone>4.1</landLinePhone>
+</callPrices>
+<smsPrice>1.1</smsPrice>
+<parameters>
+<favouriteNumber count="5">
+<number>12345634</number>
+<number>123456344</number>
+<number>1234563445</number>
+<number>12345634451</number>
+<number>123456344512</number>
+</favouriteNumber>
+<tariffication>minute1</tariffication>
+<connectionCost>0.22</connectionCost>
+</parameters>
+
+</tariff>
+
+<tariff>
+
+<name tariffID="asdf1237">Dlya smartfona</name>
+<operatorName>Kievstar</operatorName>
+<payroll>49</payroll>
+<callPrices>
+<insideNetwork>3.6</insideNetwork>
+<outsideNetwork>3.7</outsideNetwork>
+<landLinePhone>3.8</landLinePhone>
+</callPrices>
+<smsPrice>1.0</smsPrice>
+<parameters>
+<favouriteNumber count="4">
+<number>12345634</number>
+<number>123456344</number>
+<number>1234563445</number>
+<number>12345634451</number>
+</favouriteNumber>
+<tariffication>seconds12</tariffication>
+<connectionCost>0.21</connectionCost>
+</parameters>
+
+</tariff>
+
+<tariff>
+
+<name tariffID="asdf1238">Smartfon 3G</name>
+<operatorName>MTS</operatorName>
+<payroll>48</payroll>
+<callPrices>
+<insideNetwork>3.3</insideNetwork>
+<outsideNetwork>3.4</outsideNetwork>
+<landLinePhone>3.5</landLinePhone>
+</callPrices>
+<smsPrice>0.99</smsPrice>
+<parameters>
+<favouriteNumber count="3">
+<number>12345634</number>
+<number>123456344</number>
+<number>1234563445</number>
+</favouriteNumber>
+<tariffication>minute1</tariffication>
+<connectionCost>0.2</connectionCost>
+</parameters>
+
+</tariff>
+
+<tariff>
+
+<name tariffID="asdf1239">Ultra Vip 3G</name>
+<operatorName>MTS</operatorName>
+<payroll>47</payroll>
+<callPrices>
+<insideNetwork>3.0</insideNetwork>
+<outsideNetwork>3.1</outsideNetwork>
+<landLinePhone>3.2</landLinePhone>
+</callPrices>
+<smsPrice>0.98</smsPrice>
+<parameters>
+<favouriteNumber count="2">
+<number>12345634</number>
+<number>123456344</number>
+</favouriteNumber>
+<tariffication>seconds12</tariffication>
+<connectionCost>0.19</connectionCost>
+</parameters>
+
+</tariff>
+
+<tariff>
+
+<name tariffID="asdf1230">Ultra 3G</name>
+<operatorName>MTS</operatorName>
+<payroll>46</payroll>
+<callPrices>
+<insideNetwork>2.7</insideNetwork>
+<outsideNetwork>2.8</outsideNetwork>
+<landLinePhone>2.9</landLinePhone>
+</callPrices>
+<smsPrice>0.97</smsPrice>
+<parameters>
+<favouriteNumber count="1">
+<number>12345634</number>
+</favouriteNumber>
+<tariffication>minute1</tariffication>
+<connectionCost>0.18</connectionCost>
+</parameters>
+
+</tariff>
+
+<tariff>
+
+<name tariffID="asdf1231">Super MTS</name>
+<operatorName>MTS</operatorName>
+<payroll>45</payroll>
+<callPrices>
+<insideNetwork>2.4</insideNetwork>
+<outsideNetwork>2.5</outsideNetwork>
+<landLinePhone>2.6</landLinePhone>
+</callPrices>
+<smsPrice>0.96</smsPrice>
+<parameters>
+<favouriteNumber count="5">
+<number>12345634</number>
+<number>234564567</number>
+<number>3453456654</number>
+<number>34534566541</number>
+<number>345345665412</number>
+</favouriteNumber>
+<tariffication>seconds12</tariffication>
+<connectionCost>0.17</connectionCost>
+</parameters>
+
+</tariff>
+
+<tariff>
+
+<name tariffID="asdf1232">International Life</name>
+<operatorName>Life</operatorName>
+<payroll>44</payroll>
+<callPrices>
+<insideNetwork>2.1</insideNetwork>
+<outsideNetwork>2.2</outsideNetwork>
+<landLinePhone>2.3</landLinePhone>
+</callPrices>
+<smsPrice>0.95</smsPrice>
+<parameters>
+<favouriteNumber count="4">
+<number>12345634</number>
+<number>234564567</number>
+<number>3453456654</number>
+<number>34534566541</number>
+</favouriteNumber>
+<tariffication>minute1</tariffication>
+<connectionCost>0.16</connectionCost>
+</parameters>
+
+</tariff>
+
+<tariff>
+
+<name tariffID="asdf1233">Shaleniy Den</name>
+<operatorName>Life</operatorName>
+<payroll>43</payroll>
+<callPrices>
+<insideNetwork>1.8</insideNetwork>
+<outsideNetwork>1.9</outsideNetwork>
+<landLinePhone>2.0</landLinePhone>
+</callPrices>
+<smsPrice>0.9</smsPrice>
+<parameters>
+<favouriteNumber count="3">
+<number>12345634</number>
+<number>234564567</number>
+<number>3453456654</number>
+</favouriteNumber>
+<tariffication>seconds12</tariffication>
+<connectionCost>0.15</connectionCost>
+</parameters>
+
+</tariff>
+
+<tariff>
+
+<name tariffID="bsdf1235">Vilniy Life</name>
+<operatorName>Life</operatorName>
+<payroll>42</payroll>
+<callPrices>
+<insideNetwork>1.5</insideNetwork>
+<outsideNetwork>1.6</outsideNetwork>
+<landLinePhone>1.7</landLinePhone>
+</callPrices>
+<smsPrice>0.8</smsPrice>
+<parameters>
+<favouriteNumber count="2">
+<number>12345634</number>
+<number>234564567</number>
+</favouriteNumber>
+<tariffication>minute1</tariffication>
+<connectionCost>0.14</connectionCost>
+</parameters>
+
+</tariff>
+
+<tariff>
+
+<name tariffID="csdf1234">Vse Vklucheno</name>
+<operatorName>Life</operatorName>
+<payroll>41</payroll>
+<callPrices>
+<insideNetwork>1.2</insideNetwork>
+<outsideNetwork>1.3</outsideNetwork>
+<landLinePhone>1.4</landLinePhone>
+</callPrices>
+<smsPrice>0.7</smsPrice>
+<parameters>
+<favouriteNumber count="1">
+<number>1234567</number>
+</favouriteNumber>
+<tariffication>seconds12</tariffication>
+<connectionCost>0.13</connectionCost>
+</parameters>
+
+</tariff>
+
+</tariffs>

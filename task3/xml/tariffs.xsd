@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.task3.tasks/tariffs"
+xmlns:tns="http://www.task3.tasks/tariffs" elementFormDefault="qualified">
+<element name="tariffs">
+<complexType>
+<sequence>
+<element name="tariff" type="tns:Tariff" minOccurs="2" maxOccurs="unbounded" />
+</sequence>
+</complexType>
+</element>
+<complexType name="Tariff">
+<sequence>
+<element name="name" type="tns:TariffName" />
+<element name="operatorName" type="string" />
+<element name="payroll" type="tns:Payroll" />
+<element name="callPrices" type="tns:CallPrices" />
+<element name="smsPrice" type="tns:SmsPrice" />
+<element name="parameters" type="tns:Parameters" />
+</sequence>
+</complexType>
+
+<complexType name="TariffName">
+<simpleContent>
+<extension base="string">
+<attribute name="tariffID" type="tns:TariffID" use="required" />
+</extension>
+</simpleContent>
+</complexType>
+
+<simpleType name="TariffID">
+<restriction base="ID">
+<pattern value="[a-zA-Z]{4}[0-9]{4}" />
+</restriction>
+</simpleType>
+
+
+<simpleType name="Payroll">
+<restriction base="positiveInteger">
+<maxInclusive value="60" />
+<minInclusive value="30" />
+</restriction>
+</simpleType>
+
+<simpleType name="SmsPrice">
+<restriction base="float">
+<maxInclusive value="2.2" />
+<minInclusive value="0.5" />
+</restriction>
+</simpleType>
+
+<complexType name="CallPrices">
+<sequence>
+<element name="insideNetwork" type="float" />
+<element name="outsideNetwork" type="float" />
+<element name="landLinePhone" type="float" />
+</sequence>
+</complexType>
+
+<complexType name="Parameters">
+<sequence>
+<element name="favouriteNumber" type="tns:FavouriteNumber" />
+<element name="tariffication" type="tns:Tariffication" />
+<element name="connectionCost" type="float" />
+</sequence>
+</complexType>
+
+<complexType name="FavouriteNumber">
+<sequence>
+<element name="number" type="tns:PhoneNumber" minOccurs="0" maxOccurs="5" />
+</sequence>
+<attribute name="count" type="positiveInteger" use="required"/>
+</complexType>
+
+<simpleType name="PhoneNumber">
+<restriction base="string">
+<pattern value="[0-9]{7,12}" />
+</restriction>
+</simpleType>
+
+<simpleType name="Tariffication">
+<restriction base="string">
+<enumeration value="seconds12"></enumeration>
+<enumeration value="minute1"></enumeration>
+</restriction>
+</simpleType>
+
+</schema>
